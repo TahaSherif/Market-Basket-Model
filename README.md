@@ -8,7 +8,7 @@
 Here is a link that may help you understand how Apriori algorithm works 
 EDA notebook which is an exploration of the data : https://intellipaat.com/blog/data-science-apriori-algorithm/
 
-#Theory of Apriori Algorithm.
+# Theory of Apriori Algorithm.
 The Apriori algorithm was proposed by Agrawal and Srikant in 1994.
 There are three major components of the Apriori algorithm:
 1) Support
@@ -38,15 +38,23 @@ Confidence is similar to Naive Based Algorithm.
 -Lift
 
 Lift refers to the increase in the ratio of the sale of B when A is sold.
+
 Lift(A –> B) can be calculated by dividing Confidence(A -> B) divided by Support(B).
+
 Mathematically it can be represented as:
+
 Lift(A→B) = (Confidence (A→B))/(Support (B))
+
 Lift(milk → diaper) = (Confidence (milk → diaper))/(Support (diaper))
+
 Lift(milk → diaper) = 25 / 15 = 1.66
 
 So by Lift theory, there is 1.66 times more chance of buying milk and diaper together then just buying diaper alone.
+
 Association rule by Lift
 
 lift = 1 → There is no association between A and B.
+
 lift < 1→ A and B are unlikely to be bought together.
+
 lift > 1 → greater the lift greater is the likelihood of buying both products together.
