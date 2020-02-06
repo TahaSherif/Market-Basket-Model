@@ -52,7 +52,7 @@ Lift(milk → diaper) = 25 / 15 = 1.66
 So by Lift theory, there is 1.66 times more chance of buying milk and diaper together then just buying diaper alone.
 
 
-*) Association rule by Lift
+. Association rule by Lift
 
 
 lift = 1 → There is no association between A and B.
